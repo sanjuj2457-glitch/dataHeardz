@@ -1,0 +1,5 @@
+# Example llms.txt
+# Public instructions for large language models about using this site.
+
+allow: /
+sitemap: https://www.dataheardz.com/sitemap.xml

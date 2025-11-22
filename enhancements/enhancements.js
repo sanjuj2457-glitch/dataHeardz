@@ -113,9 +113,9 @@
         var state = loadState();
         applyStateToUI();
 
-        // --- Reveal animation ---
+        // --- Reveal animation (for widget + content cards) ---
 
-        var revealItems = root.querySelectorAll(".dhz-j-reveal");
+        var revealItems = root.querySelectorAll(".dhz-j-reveal, .dhz-content-reveal");
         if (revealItems.length) {
             var observer = new IntersectionObserver(function (entries) {
                 entries.forEach(function (entry) {
@@ -162,7 +162,7 @@
                 pill.classList.remove("is-selected");
             }
 
-            // Ensure at least one
+            // Ensure at least one goal
             if (state.goals.length === 0) {
                 state.goals.push("energy");
                 var energyPill = goalsWrap.querySelector('[data-goal="energy"]');
