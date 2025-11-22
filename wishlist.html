@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DataHeardz — Wishlist</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wishlist.css">
+</head>
+
+<body>
+    <!-- header injected by include-header.js -->
+    <div id="site-header"></div>
+
+    <main class="wishlist-page" role="main">
+        <div class="container">
+            <div class="toolbar-row">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li aria-current="page">Wishlist</li>
+                    </ol>
+                </nav>
+                <h1 class="page-title">Your Wishlist</h1>
+            </div>
+
+            <section id="wishlist-area" aria-live="polite">
+                <div id="wishlist-grid" class="wishlist-grid" aria-label="Wishlist items"></div>
+
+                <div id="wishlist-empty" class="empty-state" hidden>
+                    <p>Your wishlist is empty. Click “Join Waiting List” on any product to add it here.</p>
+                    <p><a class="btn-ghost" href="dataheardz-life.html">Return to store</a></p>
+                </div>
+
+                <div class="wishlist-footer">
+                    <button id="clear-wishlist" class="btn-ghost">Clear wishlist</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="/js/include-header.js"></script>
+    <script src="/js/wishlist.js"></script>
+</body>
+
+</html>
