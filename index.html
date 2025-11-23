@@ -21,6 +21,7 @@
     <meta property="og:title" content="DataHeardz Store | Health &amp; Wellness &amp; Lifestyle Essentials" />
     <meta property="og:description"
         content="Shop top DataHeardz LIFE products, health &amp; wellness supplements and lifestyle gear. Earn rewards points and support DataHeardz projects." />
+    <!-- TODO: Replace with your real share image -->
     <meta property="og:image" content="https://www.dataheardz.com/images/dataheardz-store-banner.jpg" />
     <meta property="og:url" content="https://www.dataheardz.com/" />
     <meta property="og:site_name" content="DataHeardz Store" />
@@ -30,6 +31,7 @@
     <meta name="twitter:title" content="DataHeardz Store | Health &amp; Wellness &amp; Lifestyle Essentials" />
     <meta name="twitter:description"
         content="Discover DataHeardz LIFE, health &amp; wellness supplements and lifestyle gear. Earn rewards while supporting the DataHeardz community." />
+    <!-- TODO: Replace with your real share image -->
     <meta name="twitter:image" content="https://www.dataheardz.com/images/dataheardz-store-banner.jpg" />
 
     <!-- Brand / browser color -->
@@ -51,7 +53,7 @@
     }
     </script>
 
-    <!-- Schema.org structured data: WebSite + Organization with address -->
+    <!-- Schema.org structured data: WebSite + search + Organization w/ address -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -96,7 +98,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="enhancements/enhancements.css">
 
-    <!-- Google AdSense (your client ID) -->
+    <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8847442250812640"
         crossorigin="anonymous"></script>
 
@@ -106,6 +108,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
+
         gtag('config', 'G-8T8C9W5C0M');
     </script>
 </head>
@@ -124,6 +127,7 @@
                     <span class="logo-wrap">
                         <span class="logo">
                             <span class="logo-line1"><em>DataHeardz Store</em></span>
+                            <!-- <span class="logo-line2"></span>-->
                         </span>
                         <div class="tagline">“Best products in one store!”</div>
                     </span>
@@ -175,7 +179,8 @@
                     <!-- DONATE -->
                     <div class="menu-item" data-menu="donate">
                         <a href="#donate" class="menu-link" aria-haspopup="true" aria-expanded="false">DONATE!</a>
-                        <div class="mega" role="menu" aria-label="Donate"></div>
+                        <div class="mega" role="menu" aria-label="Donate">
+                        </div>
                     </div>
 
                     <!-- HEALTH -->
@@ -233,19 +238,6 @@
     </header>
 
     <!-- =========================
-         AD SLOT: Top banner under navigation (AdSense)
-         ========================= -->
-    <section class="ad-slot ad-slot--top" aria-label="Advertisement"
-        style="max-width:1200px;margin:12px auto 0;padding:0 18px;">
-        <!-- Replace data-ad-slot with your real unit ID from AdSense -->
-        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8847442250812640"
-            data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </section>
-
-    <!-- =========================
            Main content — gallery & SEO-friendly headings
            ========================= -->
 
@@ -263,21 +255,19 @@
                 shipped across the United States.
             </p>
 
-            <!-- =========================
-                 AD SLOT: Inline content ad (AdSense)
-                 ========================= -->
-            <section class="ad-slot ad-slot--inline" aria-label="Advertisement" style="margin:20px 0;padding:0;">
-                <!-- Replace data-ad-slot with your real in-article / display unit ID -->
+            <h2 id="top-products">Top Products</h2>
+
+            <!-- AdSense unit ABOVE the gallery -->
+            <section style="margin:20px 0;">
                 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8847442250812640"
-                    data-ad-slot="1234567891" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                    data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
                 <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </section>
 
-            <h2 id="top-products">Top Products</h2>
             <section id="media-gallery" class="gallery" aria-live="polite" aria-label="Top products media gallery">
-                <!-- JS will populate this with product cards + one native sponsored card -->
+                <!-- JS will populate -->
                 <noscript>
                     <p>Browse our top DataHeardz LIFE wellness products and lifestyle gear on this page.</p>
                 </noscript>
@@ -292,35 +282,7 @@
         <div id="dhz-enhancements-root"></div>
     </main>
 
-    <!-- =========================
-         AD SLOT: Above footer (optional AdSense or your own promo)
-         ========================= -->
-    <section class="ad-slot ad-slot--footer" aria-label="Advertisement"
-        style="max-width:1200px;margin:24px auto 0;padding:0 18px;text-align:center;">
-        <!-- You can use this as:
-             - another AdSense unit, or
-             - a house ad promoting your own products -->
-        <!-- AdSense example (uncomment if you want 3rd unit here) -->
-        <!--
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8847442250812640"
-             data-ad-slot="1234567892"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        -->
-
-        <!-- House promo example (currently active) -->
-        <a href="dataheardz-life.html"
-            style="display:inline-block;margin:12px 0;padding:10px 18px;border-radius:999px;border:1px solid #cbd5f5;text-decoration:none;font-size:0.9rem;">
-            🔥 Limited: Earn bonus points on all DataHeardz LIFE orders this week
-        </a>
-    </section>
-
-    <!-- Simple footer -->
+    <!-- Simple footer to support year-home and add a bit of SEO copy -->
     <footer class="footer" style="padding:16px 18px;text-align:center;">
         <small>
             &copy; <span id="year-home"></span> DataHeardz Store. All rights reserved. Health &amp; wellness, lifestyle
@@ -328,7 +290,6 @@
         </small>
     </footer>
 
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
     <script>
@@ -346,18 +307,18 @@
     </script>
 
     <script src="script.js"></script>
-
-    <!-- Load enhancements fragment -->
     <script>
         (function () {
             var root = document.getElementById("dhz-enhancements-root");
             if (!root) return;
 
+            // 1) Load the HTML fragment from the folder
             fetch("enhancements/enhancements.html")
                 .then(function (res) { return res.text(); })
                 .then(function (html) {
                     root.innerHTML = html;
 
+                    // 2) After HTML is injected, load its JS file
                     var s = document.createElement("script");
                     s.src = "enhancements/enhancements.js";
                     s.defer = true;
@@ -366,39 +327,6 @@
                 .catch(function (err) {
                     console.error("Failed to load enhancements:", err);
                 });
-        })();
-    </script>
-
-    <!-- =========================
-         JS: Native sponsored product card inside gallery (your own promo)
-         ========================= -->
-    <script>
-        (function () {
-            const gallery = document.getElementById('media-gallery');
-            if (!gallery) return;
-
-            const sponsoredCard = document.createElement('article');
-            sponsoredCard.className = 'gallery-item sponsored-item';
-            sponsoredCard.innerHTML = `
-                <a href="dataheardz-life.html" class="card" style="display:block;text-decoration:none;border-radius:12px;border:1px solid #e5e7eb;overflow:hidden;background:#ffffff;">
-                    <div class="card-media" style="padding:10px;">
-                        <span style="display:inline-block;padding:4px 8px;font-size:0.7rem;border-radius:999px;background:#f97316;color:#fff;margin-bottom:6px;">
-                            Sponsored
-                        </span>
-                        <div style="width:100%;aspect-ratio:4/3;background:#e5e7eb;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:#6b7280;">
-                            DataHeardz LIFE Feature
-                        </div>
-                    </div>
-                    <div class="card-body" style="padding:10px 12px 12px;">
-                        <h3 style="font-size:0.95rem;margin:0 0 4px;color:#111827;">DataHeardz LIFE Daily Stack</h3>
-                        <p style="font-size:0.85rem;margin:0;color:#4b5563;">
-                            Our top wellness combo chosen by the DataHeardz community.
-                        </p>
-                    </div>
-                </a>
-            `;
-
-            gallery.appendChild(sponsoredCard);
         })();
     </script>
 </body>
