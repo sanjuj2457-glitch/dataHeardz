@@ -443,7 +443,18 @@ body {
     outline: 2px solid var(--focus);
     outline-offset: 3px
 }
-
+.adsbygoogle {
+    display: block !important;
+    min-height: 100px;
+    margin: 20px 0;
+    text-align: center;
+}
+.ad-wrap {
+    width: 100%;
+    margin: 20px auto;
+    min-height: 100px;
+    text-align: center;
+}
 .menubar {
     background: var(--menu-bg);
     border-top: 1px solid rgba(255, 255, 255, .06);

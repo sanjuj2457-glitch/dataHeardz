@@ -4,6 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="alternate" href="https://www.dataheardz.com/" hreflang="en-us" />
+    <link rel="alternate" href="https://www.dataheardz.com/" hreflang="x-default" />
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <title>DataHeardz Store | Health &amp; Wellness, Lifestyle &amp; Top Products</title>
 
@@ -41,52 +46,49 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "DataHeardz Store",
-      "url": "https://www.dataheardz.com",
-      "logo": "https://www.dataheardz.com/images/dataheardz-logo.png",
-      "sameAs": [
-        "https://www.facebook.com/your-page",
-        "https://www.instagram.com/your-handle",
-        "https://www.twitter.com/your-handle"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.dataheardz.com/#organization",
+          "name": "DataHeardz Store",
+          "url": "https://www.dataheardz.com/",
+          "logo": "https://www.dataheardz.com/images/dataheardz-logo.png",
+          "sameAs": [
+            "https://www.facebook.com/your-real-page",
+            "https://www.instagram.com/your-real-handle",
+            "https://x.com/your-real-handle",
+            "https://www.linkedin.com/company/your-real-company",
+            "https://www.youtube.com/@your-real-channel"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Example Street",
+            "addressLocality": "Springfield",
+            "addressRegion": "CA",
+            "postalCode": "90000",
+            "addressCountry": "US"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.dataheardz.com/#website",
+          "name": "DataHeardz Store",
+          "url": "https://www.dataheardz.com/",
+          "publisher": {
+            "@id": "https://www.dataheardz.com/#organization"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.dataheardz.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
       ]
     }
     </script>
 
-    <!-- Schema.org structured data: WebSite + search + Organization w/ address -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "DataHeardz Store",
-      "url": "https://www.dataheardz.com",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://www.dataheardz.com/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "DataHeardz Store",
-      "url": "https://www.dataheardz.com",
-      "logo": "https://www.dataheardz.com/images/dataheardz-logo.png",
-      "sameAs": [
-        "https://www.facebook.com/your-page",
-        "https://www.instagram.com/your-handle",
-        "https://www.twitter.com/your-handle"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "123 Example Street",
-        "addressLocality": "Springfield",
-        "addressRegion": "CA",
-        "postalCode": "90000",
-        "addressCountry": "US"
-      }
-    }
-    </script>
+
+    
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -244,6 +246,7 @@
     <main class="main-content" role="main">
         <section style="max-width:1200px;margin:28px auto;padding:0 18px;color:var(--text);">
             <h1>DataHeardz Store — Health &amp; Wellness &amp; Lifestyle Products for US Customers</h1>
+
             <p>
                 Explore DataHeardz LIFE supplements, health and wellness essentials, and lifestyle gear curated to help
                 you feel better, live sharper, and support the DataHeardz community.
@@ -256,15 +259,16 @@
             </p>
 
             <h2 id="top-products">Top Products</h2>
-
+            
             <!-- AdSense unit ABOVE the gallery -->
-            <section style="margin:20px 0;">
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8847442250812640"
-                    data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </section>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8847442250812640"
+                crossorigin="anonymous"></script>
+            <!-- 1 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8847442250812640" data-ad-slot="2935142338"
+                data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
 
             <section id="media-gallery" class="gallery" aria-live="polite" aria-label="Top products media gallery">
                 <!-- JS will populate -->
@@ -272,12 +276,20 @@
                     <p>Browse our top DataHeardz LIFE wellness products and lifestyle gear on this page.</p>
                 </noscript>
             </section>
+            
             <div style="margin: 20px 0; text-align:center;">
                 <a href="dataheardz-life.html" class="btn-life" style="display:inline-block;padding:12px 24px;background:#2563eb;color:#fff;font-weight:600;
                                               border-radius:8px;text-decoration:none;">
                     View More DataHeardz LIFE Products
                 </a>
             </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8847442250812640"
+                crossorigin="anonymous"></script>
+            <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-8847442250812640"
+                data-ad-slot="9308978994"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
         </section>
         <div id="dhz-enhancements-root"></div>
     </main>
@@ -285,10 +297,20 @@
     <!-- Simple footer to support year-home and add a bit of SEO copy -->
     <footer class="footer" style="padding:16px 18px;text-align:center;">
         <small>
-            &copy; <span id="year-home"></span> DataHeardz Store. All rights reserved. Health &amp; wellness, lifestyle
-            gear and more.
+            &copy; <span id="year-home"></span> DataHeardz Store. All rights reserved.
+            Health &amp; wellness, lifestyle gear and more.
         </small>
+    
+        <div class="social-links" style="margin-top:10px;display:flex;gap:12px;justify-content:center;font-size:14px;">
+            <a href="https://www.facebook.com/your-real-page" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.instagram.com/your-real-handle" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://x.com/your-real-handle" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+            <a href="https://www.linkedin.com/company/your-real-company" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.youtube.com/@your-real-channel" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
