@@ -39,7 +39,17 @@ body {
     isolation: isolate;
     box-shadow: var(--shadow)
 }
-
+.logo-image {
+    width: 48px;
+    /* adjust as needed */
+    height: 48px;
+    /* keep equal to make a perfect circle */
+    border-radius: 50%;
+    /* makes the image round */
+    object-fit: cover;
+    /* prevents distortion */
+    background: transparent;
+}
 .topbar {
     background: linear-gradient(180deg, var(--bg-top), var(--bg-top-2));
     padding: 14px 18px
